@@ -12,12 +12,12 @@ public class SlotDefBartok
     public string layerName = "Default";
     public int layerID = 0;
     public int id;
-    public List<int> hiddenBy = new List<int>();
-    public float rot;
+    public List<int> hiddenBy = new List<int>(); //unused in Bartok
+    public float rot;       //rotation of hands
     public string type = "slot";
     public Vector2 stagger;
-    public int player;
-    public Vector3 pos;
+    public int player;          //player number of a hand
+    public Vector3 pos;         //pos derived from x, y, and a mult.
 }
 
 public class BartokLayout : MonoBehaviour
