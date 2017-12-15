@@ -68,7 +68,7 @@ public class Card : MonoBehaviour
                     break;
                 case "face":
                 default:
-                    tSR.sortingOrder = sOrd++;
+                    tSR.sortingOrder = sOrd+1;
                     break;
             }
         }
